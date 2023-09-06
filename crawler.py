@@ -4,7 +4,6 @@
 
 import argparse
 
-from managers.filesystem_managers import local_filesystem_manager, s3_filesystem_manager
 from src.websocket_api import handlers
 from src.websocket_api import listeners
 import logging
