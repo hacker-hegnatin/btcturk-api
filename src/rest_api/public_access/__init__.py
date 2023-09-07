@@ -21,7 +21,7 @@ def get_pair_info(pair: str = 'BTCUSDT'):
     return result
 
 
-def get_all_pairs():
+def get_all_pairs_info():
     return get_pair_info(pair='')
 
 
